@@ -228,13 +228,9 @@ function App() {
     return (
       <article className="product-card" key={product.id}>
         <span className="product-badge">{product.badge}</span>
-
         <div className="product-image">{product.emoji}</div>
-
         <p className="product-category">{product.category}</p>
-
         <h3>{product.name}</h3>
-
         <p className="product-qty">{product.qty}</p>
 
         <div className="price-row">
@@ -270,9 +266,7 @@ function App() {
         <section className="hero-card">
           <div>
             <span className="hero-tag">FLASH DEALS</span>
-
             <h2>Save more on your daily groceries</h2>
-
             <p>Find low prices, offers and fresh products near you.</p>
 
             <button
@@ -359,7 +353,6 @@ function App() {
               <div>🔎</div>
               <h3>No products found</h3>
               <p>Try another product name or category.</p>
-
               <button
                 onClick={() => {
                   setSearch("");
@@ -450,7 +443,6 @@ function App() {
             <div>🛒</div>
             <h3>Your cart is empty</h3>
             <p>Add products from Flash deals and they will appear here.</p>
-
             <button onClick={() => goToPage("home")}>Start shopping</button>
           </div>
         ) : (
@@ -478,9 +470,7 @@ function App() {
                       <button onClick={() => changeQuantity(item.id, -1)}>
                         −
                       </button>
-
                       <span>{item.quantity}</span>
-
                       <button onClick={() => changeQuantity(item.id, 1)}>
                         +
                       </button>
@@ -524,14 +514,11 @@ function App() {
         <main className="main-content">
           <div className="profile-card">
             <div className="profile-avatar">👤</div>
-
             <h2>Welcome to Flash</h2>
-
             <p>Login to save your cart, orders and favourite products.</p>
 
             <div className="login-form">
               <label>Your name</label>
-
               <input
                 type="text"
                 placeholder="Enter your name"
@@ -540,7 +527,6 @@ function App() {
               />
 
               <label>Mobile number</label>
-
               <input
                 type="tel"
                 placeholder="Enter 10 digit mobile number"
@@ -572,9 +558,7 @@ function App() {
       <main className="main-content">
         <div className="profile-card">
           <div className="profile-avatar">👤</div>
-
           <h2>Hello, {userName} 👋</h2>
-
           <p>Welcome back to Flash. Your best grocery deals are ready.</p>
 
           <div className="profile-details">
@@ -602,11 +586,9 @@ function App() {
               setIsLoggedIn(false);
               setUserName("");
               setMobile("");
-
               localStorage.removeItem("flash-user-name");
               localStorage.removeItem("flash-mobile");
               localStorage.removeItem("flash-logged-in");
-
               showMessage("You are logged out");
             }}
           >
@@ -636,7 +618,6 @@ function App() {
             <div>📦</div>
             <h3>No orders yet</h3>
             <p>Your placed orders will appear here.</p>
-
             <button onClick={() => goToPage("home")}>Start shopping</button>
           </div>
         ) : (
@@ -730,7 +711,6 @@ function App() {
         >
           <span className="nav-icon">🛒</span>
           <small>Cart</small>
-
           {cartItemCount > 0 && <i>{cartItemCount}</i>}
         </button>
 
