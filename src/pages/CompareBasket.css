@@ -1,0 +1,43 @@
+.compare-basket{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+.compare-basket table{
+width:100%;
+border-collapse:collapse;
+margin:30px 0;
+}
+
+.compare-basket th,
+.compare-basket td{
+padding:18px;
+border-bottom:1px solid #ddd;
+text-align:left;
+}
+
+.compare-basket th{
+background:#16a34a;
+color:white;
+}
+
+.winner-card{
+margin-top:40px;
+padding:30px;
+background:#16a34a;
+color:white;
+border-radius:15px;
+text-align:center;
+}
+
+.winner-card button{
+margin-top:20px;
+padding:14px 30px;
+border:none;
+background:white;
+color:#16a34a;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}

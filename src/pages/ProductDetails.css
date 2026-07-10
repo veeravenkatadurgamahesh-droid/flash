@@ -1,0 +1,233 @@
+.product-details{
+  display:flex;
+  gap:50px;
+  padding:50px;
+}
+
+.product-image-section{
+  flex:1;
+}
+
+.product-info{
+  flex:1;
+}
+
+/* ---------- Gallery ---------- */
+
+.gallery{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.main-image{
+  width:100%;
+  height:380px;
+  object-fit:contain;
+  background:#fff;
+  border-radius:16px;
+  padding:20px;
+}
+
+.thumbnail-row{
+  display:flex;
+  gap:10px;
+}
+
+.thumbnail{
+  width:70px;
+  height:70px;
+  object-fit:contain;
+  background:#fff;
+  border:2px solid #ddd;
+  border-radius:10px;
+  padding:5px;
+  cursor:pointer;
+}
+
+.thumbnail:hover{
+  border-color:#16a34a;
+}
+
+/* ---------- Top ---------- */
+
+.product-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:15px;
+}
+
+.rating{
+  font-size:16px;
+  color:#f59e0b;
+}
+
+/* ---------- Heart ---------- */
+
+.heart-btn{
+  background:transparent;
+  border:none;
+  box-shadow:none;
+  outline:none;
+  font-size:28px;
+  color:#cfcfcf;
+  cursor:pointer;
+  padding:0;
+  transition:.3s;
+}
+
+.heart-btn:hover{
+  transform:scale(1.1);
+}
+
+.heart-btn.active{
+  color:#ff3b5c;
+}
+
+/* ---------- Product ---------- */
+
+.category{
+  color:#16a34a;
+  font-weight:600;
+}
+
+.product-info h1{
+  margin:12px 0;
+}
+
+.qty{
+  color:#666;
+}
+
+.price-box{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin:20px 0;
+}
+
+.price{
+  font-size:32px;
+  font-weight:bold;
+  color:#16a34a;
+}
+
+.old-price{
+  text-decoration:line-through;
+  color:#999;
+}
+
+.discount{
+  background:#ef4444;
+  color:#fff;
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:13px;
+}
+
+.stock{
+  color:#16a34a;
+  margin-top:8px;
+}
+
+.delivery{
+  color:#555;
+}
+
+/* ---------- Buttons ---------- */
+
+.buttons{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  margin-top:25px;
+}
+
+.cart-btn{
+  width:100%;
+  height:52px;
+  border:none;
+  border-radius:12px;
+  background:#16a34a;
+  color:#fff;
+  font-size:17px;
+  cursor:pointer;
+}
+
+.compare-btn{
+  width:100%;
+  height:48px;
+  border:2px solid #16a34a;
+  background:#fff;
+  color:#16a34a;
+  border-radius:12px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.compare-btn:hover{
+  background:#16a34a;
+  color:#fff;
+}
+
+/* ---------- Best Price ---------- */
+
+.best-price-card{
+  margin:30px 0;
+  background:#dcfce7;
+  padding:25px;
+  border-radius:16px;
+  text-align:center;
+}
+
+.best-price{
+  font-size:32px;
+  font-weight:bold;
+  color:#15803d;
+}
+
+.buy-btn{
+  margin-top:15px;
+  background:#16a34a;
+  color:#fff;
+  border:none;
+  border-radius:10px;
+  padding:14px 28px;
+  cursor:pointer;
+}
+
+/* ---------- Compare ---------- */
+
+.compare-section{
+  margin-top:30px;
+  background:#fff;
+  padding:20px;
+  border-radius:16px;
+}
+
+.store-price{
+  display:flex;
+  justify-content:space-between;
+  padding:15px 0;
+  border-bottom:1px solid #eee;
+}
+
+.store-price:last-child{
+  border-bottom:none;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width:768px){
+
+  .product-details{
+    flex-direction:column;
+    padding:20px;
+  }
+
+  .main-image{
+    height:260px;
+  }
+
+}

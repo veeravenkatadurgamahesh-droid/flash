@@ -1,0 +1,33 @@
+.offers-page{
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.offers-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.offer-card{
+    background:white;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+.offer-card h2{
+    margin-bottom:12px;
+}
+
+.offer-card button{
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    background:#16a34a;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}

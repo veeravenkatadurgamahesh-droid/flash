@@ -1,0 +1,59 @@
+.compare-page{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.compare-product{
+display:flex;
+gap:25px;
+align-items:center;
+margin-bottom:40px;
+}
+
+.compare-product img{
+width:130px;
+background:white;
+padding:20px;
+border-radius:15px;
+}
+
+.store-card{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:white;
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.best-store{
+border:3px solid #16a34a;
+}
+
+.save{
+color:red;
+font-weight:bold;
+}
+
+.winner{
+margin-top:40px;
+background:#16a34a;
+color:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+}
+
+.winner button{
+margin-top:20px;
+padding:14px 30px;
+border:none;
+background:white;
+color:#16a34a;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+}

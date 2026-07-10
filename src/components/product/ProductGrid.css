@@ -1,0 +1,41 @@
+.products-section {
+  padding: 40px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.section-header button {
+  border: none;
+  background: #16a34a;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 24px;
+}
+.filters{
+display:flex;
+justify-content:flex-end;
+gap:15px;
+margin-bottom:25px;
+flex-wrap:wrap;
+}
+
+.filters select{
+padding:10px 15px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:15px;
+background:white;
+cursor:pointer;
+}

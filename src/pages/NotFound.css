@@ -1,0 +1,23 @@
+.not-found{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-height:80vh;
+  text-align:center;
+}
+
+.not-found h1{
+  font-size:120px;
+  color:#16a34a;
+}
+
+.not-found button{
+  margin-top:20px;
+  padding:14px 28px;
+  border:none;
+  background:#16a34a;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+}

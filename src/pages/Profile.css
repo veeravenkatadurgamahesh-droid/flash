@@ -1,0 +1,42 @@
+.profile-page{
+max-width:800px;
+margin:auto;
+padding:40px 20px;
+}
+
+.profile-card{
+background:white;
+padding:40px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.avatar{
+font-size:70px;
+margin-bottom:20px;
+}
+
+.profile-menu{
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.profile-menu a{
+background:white;
+padding:20px;
+border-radius:12px;
+text-decoration:none;
+color:#222;
+font-weight:600;
+box-shadow:0 3px 10px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.profile-menu a:hover{
+transform:translateY(-5px);
+background:#16a34a;
+color:white;
+}

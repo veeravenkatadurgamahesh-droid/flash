@@ -1,0 +1,29 @@
+.categories-page{
+max-width:1300px;
+margin:auto;
+padding:40px 20px;
+}
+
+.categories-page h1{
+margin-bottom:30px;
+}
+
+.filter-bar{
+display:flex;
+gap:15px;
+margin-bottom:30px;
+flex-wrap:wrap;
+}
+
+.filter-bar input,
+.filter-bar select{
+padding:14px;
+border:1px solid #ddd;
+border-radius:10px;
+font-size:15px;
+}
+
+.filter-bar input{
+flex:1;
+min-width:250px;
+}

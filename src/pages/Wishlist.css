@@ -1,0 +1,30 @@
+.wishlist-page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.wishlist-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,.08);
+}
+
+.wishlist-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.wishlist-item button {
+  margin-left: auto;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
